@@ -1,0 +1,57 @@
+body {
+    margin: 0 auto;
+    background-image: url(assets/pattern-leaves-white.jpg);
+}
+
+.header {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.main{
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item_with_image_right_down {
+    /* margin: 5%; */
+    margin-bottom: 5%;
+    flex: 50%;
+    max-width: 40%;
+    background-image: url(assets/pattern-characters.jpg);
+    border-radius: 30px;
+}
+
+@media (max-width: 1100px) {
+    .item_with_image_right_down {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.item_with_image_right_down > img {
+    float: right;
+    margin-right: 30px;
+}
+
+
+/* text box inside items begin */
+.text_box_outer {
+    margin: 30px 30px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgba(245, 222, 179, 0.5);
+}
+
+.text_box_inner {
+    background-color: wheat;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.text_box_inner > p {
+    font-size: 25px;
+}
+/*text box end*/

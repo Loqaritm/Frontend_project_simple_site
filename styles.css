@@ -92,6 +92,16 @@ body {
     height: auto;
 }
 
+div.footer_bottom_text {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+
+div.footer_bottom_text > p {
+    margin: 0px;
+}
+
 @media screen and (max-width: 600px) {
     .text_box_outer {
         padding: 10px;

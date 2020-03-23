@@ -88,6 +88,8 @@ div.footer_bottom_text {
     bottom: 20px;
     text-align: center;
     padding-bottom: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 div.footer_bottom_text > p {
